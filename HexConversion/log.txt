@@ -1,0 +1,4 @@
+addi $t2 , $zero , 5      Binary Conversion: 01100000001100000101
+addi $t1, $zero , 3      Binary Conversion: 01100000001000000011
+sw $t2, 0($t1)      Binary Conversion: 11100010001100000000
+lw $t3, 0($t1)      Binary Conversion: 01010010010000000000

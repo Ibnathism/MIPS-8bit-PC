@@ -1,0 +1,10 @@
+addi $t2 , $zero , 5
+add $t3 , $t3 , $t2
+andi $t3 , $t3 , 15
+j 5
+andi $t3 , $t3 , 15
+sw $t3 , 1($sp)
+lw $t4 , 1($sp)
+andi $t4 , $t4 , 15
+beq $t1 , $t1 , 6
+andi $t1 , $zero , 0 
